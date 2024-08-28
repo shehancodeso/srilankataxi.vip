@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- concent manager 
+// meta tags for seo keywords-->
+
+<!-- concent manager -->
+
+    <meta name="keywords" content="VIP taxi service Sri Lanka, Luxury taxi Sri Lanka, Sri Lanka airport transfer VIP, Chauffeur service Colombo, Sri Lanka luxury vehicle rental, VIP travel Sri Lanka, Colombo luxury taxi, VIP transport Sri Lanka, Premium taxi service Sri Lanka, Executive taxi Sri Lanka">
+
+<div id="consent-banner" style="position: fixed; top: 0; width: 100%; background: #000; color: #fff; padding: 10px; text-align: center; z-index: 1000;">
+  <p>We use cookies to ensure the best experience, analyze traffic, and improve our services. For GDPR compliance and European Union users, your consent is required.</p>
+  <button onclick="acceptCookies()" style="margin-right: 10px; padding: 5px 10px;">Accept</button>
+  <button onclick="declineCookies()" style="padding: 5px 10px;">Decline</button>
+
+</div>
+
+<script>
+  function acceptCookies() {
+    document.getElementById('consent-banner').style.display = 'none';
+    // Set the consent status for analytics
+    gtag('consent', 'update', {
+      'analytics_storage': 'granted',
+      'ad_storage': 'granted'
+    });
+  }
+
+  function declineCookies() {
+    document.getElementById('consent-banner').style.display = 'none';
+    // Set the consent status for analytics
+    gtag('consent', 'update', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied'
+    });
+  }
+</script>
+
+
+<!-- concent manager -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N1DWD41HHC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N1DWD41HHC');
+</script>
+
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka Taxi VIP</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: 'Arial', sans-serif;
+            scroll-behavior: smooth;
+        }
+        section {
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
+        }
+        #image1 {
+            background-image: url('images/image_01.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        #image2 {
+            background-image: url('images/image_02.jpg');
+            background-size: cover;
+            background-position: center center;
+        }
+        #image3 {
+            background-image: url('images/image_03.jpg');
+            background-size: cover;
+            background-position: center center;
+            margin-right: 15px;
+        }
+        #image4 {
+            background-image: url('images/image_04.jpg');
+            background-size: cover;
+            background-position: center center;
+            height: 50vh;
+        }
+        #image5 {
+            background-image: url('images/image_05.jpg');
+            background-size: cover;
+            background-position: center center;
+            height: 50vh;
+        }
+        .scroll-down {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color: #ffffff;
+            cursor: pointer;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        #parallax-container {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: url('images/whatsapp-banner.jpg') no-repeat center center;
+            background-size: cover;
+        }
+
+        .parallax-content {
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+            transform: translateY(50px);
+            transition: transform 1.5s ease-in-out, opacity 1.5s ease-in-out;
+        }
+
+        .reveal {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        #whatsapp-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 20px 40px;
+            background-color: #25D366;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s ease;
+            z-index: 1000;
+            position: relative;
+        }
+
+        #whatsapp-link:hover {
+            background-color: #128C7E;
+        }
+
+        #whatsapp-link .highlight-24x7 {
+            font-size: 28px;
+            font-weight: bolder;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #222;
+            color: white;
+            padding: 30px 20px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            font-size: 14px;
+            font-family: 'Arial', sans-serif;
+            z-index: 999;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .footer-logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .footer-links {
+            margin-top: 15px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .footer-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #25D366;
+        }
+
+        .footer-copyright {
+            margin-top: 5px;
+            font-size: 13px;
+            color: #cccccc;
+            text-align: left;
+            flex: 1;
+        }
+
+        #footer-whatsapp-link {
+            display: inline-block;
+            margin-top: -40px;
+            padding: 20px 40px;
+            background-color: #25D366;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            animation: slide-up 2s ease-in-out forwards, pulse 1.5s infinite, sparkle 3s infinite;
+            opacity: 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        @keyframes slide-up {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes sparkle {
+            0%, 100% {
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6);
+            }
+        }
+
+        #footer-whatsapp-link:hover {
+            background-color: #128C7E;
+        }
+
+        /* Mobile View Adjustments */
+        @media (max-width: 768px) {
+            section {
+                height: 80vh;
+                background-attachment: scroll;
+            }
+            .parallax-content {
+                font-size: 18px;
+            }
+            #whatsapp-link {
+                font-size: 18px;
+                padding: 15px 30px;
+                margin-top: 10px;
+            }
+            #footer-whatsapp-link {
+                font-size: 20px;
+                padding: 16px 30px;
+            }
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .footer-links {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+            .footer-logo {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            .footer-links a {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .parallax-content {
+                font-size: 16px;
+            }
+            #whatsapp-link {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+            #footer-whatsapp-link {
+                font-size: 18px;
+                padding: 14px 25px;
+            }
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .footer-links {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+            .footer-logo {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+<section id="image1">
+    <div class="scroll-down">⬇ Scroll Down</div>
+</section>
+<section id="image2">
+    <div class="scroll-down">⬇ Scroll Down</div>
+</section>
+<section id="image3">
+
+    <div class="scroll-down">⬇ Scroll Down</div>
+</section>
+
+<!-- Parallax Section -->
+<section id="parallax-container">
+    <div class="parallax-content">
+        <div>Need Assistance? Connect with us on WhatsApp!</div>
+        <a href="http://wa.link/t56dyh" id="whatsapp-link">
+            <span class="highlight-24x7">Contact us 24X7</span><br>We are a friendly team of Sri Lankans with a smile :)
+        </a>
+    </div>
+</section>
+
+<section id="image4"></section>
+<section id="image5"></section>
+
+<!-- Footer Section with Animated WhatsApp Button -->
+<footer>
+    <div class="footer-content">
+        <div>
+            <div class="footer-logo">Sri Lanka Taxi VIP</div>
+            <div class="footer-copyright">© 2024 SriLankaTaxi.VIP. All rights reserved.</div>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        <a href="/srilankataxi_blog.html">Blog</a>
+        </div>
+        <a href="http://wa.link/t56dyh" id="footer-whatsapp-link">Connect on WhatsApp</a>
+    </div>
+</footer>
+
+<script>
+    // IntersectionObserver to trigger reveal effect and scale WhatsApp button as user scrolls
+    const parallaxContent = document.querySelector('.parallax-content');
+    const whatsappLink = document.getElementById('whatsapp-link');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                parallaxContent.classList.add('reveal');
+            }
+        });
+    }, {
+        threshold: 0.5
+    });
+
+    observer.observe(parallaxContent);
+
+    // Focus effect on the WhatsApp button
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+        const documentHeight = document.body.scrollHeight;
+        const viewportHeight = window.innerHeight;
+
+        // Calculate how close the user is to the bottom (footer)
+        const scrollPercent = (scrollPosition / (documentHeight - viewportHeight)) * 100;
+
+        // Intensify the focus effect as the user scrolls closer to the footer
+        if (scrollPercent > 50) {
+            whatsappLink.style.transform = `scale(${1 + (scrollPercent - 50) / 100})`;
+        } else {
+            whatsappLink.style.transform = 'scale(1)';
+        }
+    });
+</script>
+
+</body>
+</html>
